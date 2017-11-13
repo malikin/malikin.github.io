@@ -18,10 +18,12 @@ email: timur.malikin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Some posts about my life and work.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://malikin.me" # the base hostname & protocol for your site, e.g. http://example.com
+author: Timur Malikin
 twitter_username: timur_malikin
 github_username: malikin
-
+disqus:
+    shortname: malikin-me
 # Build settings
 markdown: kramdown
 theme: minima
